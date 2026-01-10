@@ -1,16 +1,89 @@
-# React + Vite
+# 🥜 Maska Reviews UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive customer reviews section built using React and Vite.  
+This project demonstrates how ratings and customer feedback can be displayed in a clean, professional e-commerce style UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot Preview
 
-## React Compiler
+![WhatsApp Image 2026-01-10 at 4 39 11 PM](https://github.com/user-attachments/assets/2da54b14-8de9-4054-be88-324daecbdd65)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Overall rating display (4.7 / 5)
+- Customer review cards
+- Dynamic rendering using Array.map()
+- Clean and minimal UI design
+- Fast development with Vite
+- Hot Module Replacement (HMR)
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript (JSX)
+- CSS
+
+---
+
+## 📁 Project Structure
+
+maska-reviews-ui  
+├── public  
+├── src  
+│   ├── App.jsx  
+│   ├── App.css  
+│   ├── main.jsx  
+│   └── index.css  
+├── screenshots  
+│   └── reviews-ui.png  
+├── index.html  
+├── package.json  
+├── vite.config.js  
+└── README.md  
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+git clone https://github.com/Mudi-Srilakshmi/maska-reviews-ui.git  
+
+### Navigate to the project folder
+cd maska-reviews-ui  
+
+### Install dependencies
+npm install  
+
+### Start the development server
+npm run dev  
+
+Open your browser and visit:  
+http://localhost:5173  
+(or http://localhost:5174 if the port is busy)
+
+---
+
+## 📌 Use Cases
+
+- E-commerce product review section
+- Brand testimonial display
+- React UI practice project
+- Frontend portfolio showcase
+
+---
+
+## 👩‍💻 Author
+
+Mudi Sri Lakshmi 
+  
+---
+
+## ⭐ Support
+
+If you like this project, please give it a star on GitHub.
