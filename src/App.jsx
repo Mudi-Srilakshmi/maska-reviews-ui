@@ -27,7 +27,17 @@ function App() {
       <h1>Maska Peanut Butter – Chatpata</h1>
       <h2>₹349</h2>
       <p>A bold, spicy, and crunchy peanut butter made for Indian taste buds.</p>
-      <button style={{ padding: "10px 16px", cursor: "pointer" }}>
+
+      <button
+        style={{
+          padding: "10px 16px",
+          cursor: "pointer",
+          backgroundColor: "#000",
+          color: "#fff",
+          border: "none",
+          borderRadius: "4px"
+        }}
+      >
         Add to Cart
       </button>
 
@@ -37,10 +47,10 @@ function App() {
       <h2>What Our Peanut Butter Lovers Say</h2>
 
       <p style={{ fontSize: "18px", marginBottom: "8px" }}>
-        ⭐ <strong>4.7</strong> <span style={{ color: "#555" }}>Based on 382 reviews</span>
+        ⭐ <strong>4.7</strong>{" "}
+        <span style={{ color: "#555" }}>Based on 382 reviews</span>
       </p>
 
-      {/* Design Variation Label */}
       <p style={{ color: "#555", marginBottom: "12px" }}>
         Choose a review layout:
       </p>
@@ -64,6 +74,7 @@ function App() {
         <button
           onClick={() => setView("list")}
           style={{
+            marginRight: "10px",
             padding: "8px 14px",
             background: view === "list" ? "#000" : "#eee",
             color: view === "list" ? "#fff" : "#000",
@@ -73,9 +84,22 @@ function App() {
         >
           List View
         </button>
+
+        <button
+          onClick={() => setView("compact")}
+          style={{
+            padding: "8px 14px",
+            background: view === "compact" ? "#000" : "#eee",
+            color: view === "compact" ? "#fff" : "#000",
+            border: "none",
+            cursor: "pointer"
+          }}
+        >
+          Compact View
+        </button>
       </div>
 
-      {/* Card View */}
+      {/* Design Variation A – Card View */}
       {view === "card" && (
         <div style={{ display: "flex", gap: "20px" }}>
           {reviews.map((review, index) => (
@@ -96,7 +120,7 @@ function App() {
         </div>
       )}
 
-      {/* List View */}
+      {/* Design Variation B – List View */}
       {view === "list" && (
         <div>
           {reviews.map((review, index) => (
@@ -110,6 +134,38 @@ function App() {
               <h3>{review.name}</h3>
               <p>⭐ {review.rating} / 5</p>
               <p>{review.text}</p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Design Variation C – Compact View */}
+      {view === "compact" && (
+        <div style={{ marginTop: "20px" }}>
+          {reviews.map((review, index) => (
+            <div
+              key={index}
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                padding: "12px 16px",
+                border: "1px solid #ddd",
+                borderRadius: "6px",
+                marginBottom: "10px",
+                backgroundColor: "#fafafa"
+              }}
+            >
+              <div>
+                <strong>{review.name}</strong>
+                <p style={{ margin: "4px 0", color: "#555" }}>
+                  {review.text}
+                </p>
+              </div>
+
+              <div style={{ fontWeight: "bold" }}>
+                ⭐ {review.rating}/5
+              </div>
             </div>
           ))}
         </div>
