@@ -9,7 +9,7 @@ This project demonstrates how ratings and customer feedback can be displayed in 
 
 ## 📸 Screenshot Preview
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/102f5f7e-8be2-4ec9-9557-fa10b7aa676c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc0fc0e1-81d5-47ac-b0f9-08a6301c9840" />
 
 ---
 
