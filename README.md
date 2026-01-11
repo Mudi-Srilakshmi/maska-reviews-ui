@@ -1,6 +1,6 @@
 # 🥜 Maska Reviews UI
 
-🔗 **Live Demo:** https://monumental-gnome-7696a7.netlify.app/
+🔗 **Live Demo:** https://maska-reviews-ui.vercel.app/
 
 A modern and responsive customer reviews section built using React and Vite.  
 This project demonstrates how ratings and customer feedback can be displayed in a clean, professional e-commerce style UI.
