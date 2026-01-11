@@ -9,7 +9,7 @@ This project demonstrates how ratings and customer feedback can be displayed in 
 
 ## 📸 Screenshot Preview
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68fc9583-e311-4927-a010-9e220a5af4ca" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/102f5f7e-8be2-4ec9-9557-fa10b7aa676c" />
 
 ---
 
@@ -21,6 +21,29 @@ This project demonstrates how ratings and customer feedback can be displayed in 
 - Clean and minimal UI design
 - Fast development with Vite
 - Hot Module Replacement (HMR)
+
+---
+
+## 🎨 Design Variations & Decisions
+
+This project demonstrates multiple review layout variations for an e-commerce product page.
+
+### Variation A – Card View
+- Visually rich layout with individual review cards
+- Highlights customer testimonials clearly
+- Suitable for modern DTC and brand-focused product pages
+
+### Variation B – List View
+- Clean vertical layout for easy scanning
+- Ideal when displaying multiple reviews
+- Familiar UX similar to large e-commerce platforms
+
+### Variation C – Compact View
+- Space-efficient and minimal design
+- Optimized for dense layouts and mobile screens
+- Focuses on rating and key feedback over long text
+
+These variations showcase how the same review data can adapt to different product, layout, and UX requirements.
 
 ---
 
